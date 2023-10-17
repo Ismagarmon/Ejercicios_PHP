@@ -5,3 +5,8 @@ setcookie("cookie1","Mi regalito",time()+3600);
 # escribe el valor leido en la cookie 
 echo "Esta es la galletita:",$_COOKIE['cookie1']; 
 ?>
+
+
+foreach($_COOKIE['cookie3'] as $indice => $valor){
+    echo "$indice == $valor <br>"
+}
